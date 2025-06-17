@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ✅ CLOSE MENU WHEN A LINK IS CLICKED
   sidebarLinks.forEach(link => {
     link.addEventListener("click", () => {
       sideBar.classList.remove("open-sidebar");
@@ -44,5 +43,7 @@ videoList.forEach (function(video){
     video.addEventListener("mouseout", function(){
     video.pause();
     hoverSign.classList.remove("active")
+
+    
 })
 })
