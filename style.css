@@ -8,6 +8,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
+    background-color: black;
     
 }
 .update{
@@ -27,7 +28,7 @@ html{
 
 
 
-.back-vid {
+.back-img {
   position: fixed;
   top: 0;
   left: 0;
@@ -336,11 +337,15 @@ header ul a:hover{
     line-height: 1.25rem;
 }
 
+
+
 .card img{
     width: 80%;
     height: 50%;
     object-fit: cover;
 }
+
+
 
 .card video{
     margin-top: 10%;
@@ -445,6 +450,13 @@ padding: 2.5rem;
     cursor: pointer;
     transition: 0.5s;
     min-width: 25rem;
+    opacity: 100%;
+
+}
+
+.projectVideo2{
+    background-color: #0f1217;
+    opacity: 1;
 
 }
 
@@ -480,6 +492,14 @@ padding: 2.5rem;
 }
 
 .project-info p{
+    width: 90%;
+    max-width: 66.6rem;
+    min-width: 18.75rem;
+    margin-bottom: 3.125rem;
+    margin-top: 0;
+}
+
+.project-info {
     width: 90%;
     max-width: 66.6rem;
     min-width: 18.75rem;
@@ -943,7 +963,7 @@ padding: 2.5rem;
 
 
 @media (max-aspect-ratio: 16/9){
-    .back-vid {
+    .back-img {
   position: fixed;
   top: 0;
   left: 0;
@@ -956,7 +976,7 @@ padding: 2.5rem;
 }
 
 @media (min-aspect-ratio: 16/9){
-    .back-vid {
+    .back-img {
   position: fixed;
   top: 0;
   left: 0;
@@ -1251,7 +1271,7 @@ padding: 2.5rem;
     }
 
     .project-info p{
-        margin-bottom: 9.375rem;
+        margin-bottom: 1.375rem;
     }
 
     .project-info{
